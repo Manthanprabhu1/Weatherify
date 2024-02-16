@@ -1,0 +1,262 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
+}
+
+.foot
+{
+text-align: center;
+text-decoration: underline;
+font-size: medium;
+}
+
+/* Adjust the font family, size, weight, letter spacing, and color */
+.logo {
+  font-family: 'Your Font', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #000000;
+  text-decoration: none; /* If you want to remove underline by default */
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+/* Optional: Add a subtle text shadow for depth and style */
+.logo {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Optional: Adjust line height for better vertical alignment and readability */
+.logo {
+  line-height: 1.5;
+}
+
+/* Optional: Make the logo uppercase */
+.logo {
+  text-transform: uppercase;
+}
+.logo {
+  opacity: 0.8;
+}
+
+
+.opaque-box {
+  background-color: rgba(0, 0, 0, 0.8); /* Adjust the color and opacity as needed */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Optional: Add a subtle box shadow for depth */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 400px;
+  margin-bottom: 10px;
+  opacity: 100%; 
+  height: 600px;
+  width: 700px;
+
+
+  /* Add other styles as needed */
+}
+
+.opaque-box h2 {
+  color: #fcfcfc; /* Customize text color */
+}
+
+.opaque-box p {
+  color: #ffffff; /* Customize text color */
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.column {
+  flex: 1;
+  padding: 20px;
+  /* border: 1px solid #ccc; */
+  margin: 10px;
+}
+
+
+.search-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  position: relative;
+  z-index: 2;
+}
+.search-box .img-box {
+  background: rgb(255, 255, 255, 0.2);
+  border-radius: 50%;
+  height: 32px;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+}
+.search-box img {
+  width: 60%;
+  cursor: pointer;
+}
+.search-box .search-bar {
+  border: none;
+  padding: 10px 11px;
+  background: transparent;
+  color: white;
+  border-bottom: 1px solid;
+  font-size: 16px;
+}
+.search-box .search-bar::placeholder {
+  color: white;
+}
+.search-bar:focus {
+  outline: none;
+  border-bottom: 1px solid gray;
+  transition: all 1s ease-in-out;
+}
+.mb-icon {
+  height: 100%;
+  position: absolute;
+  top: 34%;
+  left: 36%;
+  z-index: 1;
+  display: none;
+}
+.mb-icon p {
+  color: white;
+  width: fit-content;
+  position: relative;
+  left: 24%;
+  top: 2%;
+  font-size: 25px;
+}
+
+.Wicon
+{
+  margin: 26px;
+  margin-bottom: 15px;
+  font-size: 10em; /* Adjust the font-size to increase or decrease the size */
+}
+
+.container2
+{
+  margin-bottom: 25px;
+}
+
+.sky
+{
+    background-image: url('./images/bg2.jpg');
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #f0f0f0;
+    height: 600px;
+    width: 338px;
+    
+}
+
+
+.time {
+  position: absolute;
+  top: 580px;
+  left: 766px;
+  padding: 10px;
+}
+
+.time p{
+  
+  color: black;
+
+}
+
+
+.date {
+  position: absolute;
+  top: 620px;
+  left: 766px;
+  padding: 10px;
+}
+
+.date p{
+  
+  color: black;
+  
+}
+
+.name {
+  position: absolute;
+  top: 120px;
+  left: 888px;
+  padding: 10px;
+}
+
+.name h2{
+  color: black;
+}
+.name1 {
+  position: absolute;
+  top: 40px;
+  left: 152px;
+  padding: 10px;
+}
+
+.temp
+{
+  position: absolute;
+  top: 544px;
+  left: 977px;
+  padding: 10px;
+}
+
+.temp h1{
+  color: black;
+}
